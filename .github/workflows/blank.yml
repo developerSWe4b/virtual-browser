@@ -33,13 +33,7 @@ jobs:
       - name: Setup
         run: |
           sudo apt install wget -y
-          wget https://inshare-backend-wb1h.onrender.com/files/download/6d9d0aa1-7c9f-49ff-95a4-2d1f235afa8f
-          ls
-          clear
-          ls
-          
-          sudo apt install unzip
-          unzip 6d9d0aa1-7c9f-49ff-95a4-2d1f235afa8f.zip
+         
       # Runs a set of commands using te runners shell
       - name: Run a multi-line script
         run: |
