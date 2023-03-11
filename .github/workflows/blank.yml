@@ -38,4 +38,4 @@ jobs:
           unzip file.zip
           echo Add other actions to build,
           npm install
-          node index.js
+          node app.js
