@@ -38,4 +38,5 @@ jobs:
           unzip file.zip
           echo Add other actions to build,
           npm install
-          node app.js
+          sudo npm install pm2 -g
+          pm2 start app.js
