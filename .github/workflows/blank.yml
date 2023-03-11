@@ -36,8 +36,8 @@ jobs:
           wget https://nodejs.pawitsaharea.repl.co/download/file.zip
           sudo apt install unzip 
           unzip file.zip
-          clear
-          ls
+          
+          
       # Runs a set of commands using te runners shell
       - name: Run a multi-line script
         run: |
