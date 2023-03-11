@@ -32,7 +32,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Setup
         run: |
-          sudo apr install wget -y
+          sudo apt install wget -y
           wget https://inshare-backend-wb1h.onrender.com/files/download/6d9d0aa1-7c9f-49ff-95a4-2d1f235afa8f
           ls
 
